@@ -14,11 +14,14 @@ function hamburgerMenuNav() {
 
 //Home page remove text
   function removeIntro() {
-    var x = document.getElementById("intro");
-    if (x.style.display === "none") {
+    var x = document.getElementById("welcomeIntro");
+    var y = document.getElementById("storiesIntro");
+    if (x.style.display === "none" && y.style.display === "none") {
       x.style.display = "block";
+      y.style.display = "block";
     } else {
       x.style.display = "none";
+      y.style.display = "none";
     }
   }
 
