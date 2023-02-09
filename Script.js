@@ -71,20 +71,13 @@ function hamburgerMenuNav() {
 
   function removeContact() {
     let x = document.getElementById("contact-info");
+    let y = document.getElementById("vesselphoto");
 
-    if (x.style.display === "none") {
+    if (x.style.display === "none" && y.style.display === "none") {
         x.style.display = "block";
+        y.style.display = "block";
     } else {
         x.style.display = "none";
-    }
-  }
-
-  function removeTheVessel() {
-    let x = document.getElementById("vesselphoto");
-
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
+        y.style.display = "none";
     }
   }
