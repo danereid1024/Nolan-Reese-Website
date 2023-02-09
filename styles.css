@@ -192,12 +192,6 @@ footer {
     padding: .5rem;
 }
 
-#facebook-logo:hover {
-    background-color: white;
-    color: black;
-    
-}
-
 /* Music Page */
 
 img.music {
@@ -354,6 +348,10 @@ a.link {
     .row {
         white-space: normal;
     }
+    .welcome {
+        padding-left: auto;
+        padding-right: auto;
+    }
 }
 
 /* The "responsive" class is added to the topnav with JavaScript 
@@ -385,5 +383,9 @@ of horizontally) */
     }
     .row {
         white-space: normal;
+    }
+    .welcome {
+        padding-left: auto;
+        padding-right: auto;
     }
 }
