@@ -60,11 +60,10 @@ a.contact {
 .welcome {
     font-family: 'Source Code Pro', Courier, monospace;
     color: white;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     font-size: 74px;
     text-align: center;
-    padding: 80px;
-    margin: auto;
+    padding: auto;
     padding-left: auto;
     padding-right: auto;
 
@@ -348,10 +347,6 @@ a.link {
     .row {
         white-space: normal;
     }
-    .welcome {
-        padding-left: auto;
-        padding-right: auto;
-    }
 }
 
 /* The "responsive" class is added to the topnav with JavaScript 
@@ -384,8 +379,5 @@ of horizontally) */
     .row {
         white-space: normal;
     }
-    .welcome {
-        padding-left: auto;
-        padding-right: auto;
-    }
+
 }
