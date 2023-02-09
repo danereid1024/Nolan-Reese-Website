@@ -59,8 +59,8 @@ function hamburgerMenuNav() {
     }
   }
 
-  function removeContact() {
-    let x = document.getElementById("contact2");
+  function removeNolan() {
+    let x = document.getElementById("nolan");
 
     if (x.style.display === "none") {
         x.style.display = "block";
@@ -69,8 +69,18 @@ function hamburgerMenuNav() {
     }
   }
 
-  function removeNolan() {
-    let x = document.getElementById("nolan");
+  function removeContact() {
+    let x = document.getElementById("contact-info");
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+  }
+
+  function removeTheVessel() {
+    let x = document.getElementById("vesselphoto");
 
     if (x.style.display === "none") {
         x.style.display = "block";
